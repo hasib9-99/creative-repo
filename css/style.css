@@ -93,3 +93,35 @@ a{
     z-index: 1;
 }
 /* Our Work Portfolio part end */
+
+
+/* Our Expert Team Member part start  */
+.member__heading{
+    margin: 50px auto;
+    text-align: center;
+    width: 500px;
+    padding-top: 50px;
+}
+.member__heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.member__card{
+    position: relative;
+}
+.member__card_inner{
+    position: absolute;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0) 58.11%);
+    top: 0;
+    left: 12px;
+    width: 370px;
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.member__card_inner h4{
+    padding-top: 95%;
+}
+
+/* Our Expert Team Member part end */
