@@ -3,8 +3,32 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 /* navbar part start  */
 .logo{
     width: 100px;
 }
 /* navbar part end  */
+
+
+/* banner part start  */
+#banner{
+    background-color: #5956E8;
+    padding: 180px 0;
+}
+.banner__heading h2{
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+.banner__heading p{
+    padding: 30px 0;
+    color: white;
+}
+.banner__heading a{
+    background-color: white;
+    color: #5956E8;
+}
+/* banner part end  */
