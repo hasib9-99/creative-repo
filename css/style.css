@@ -161,3 +161,62 @@ ul{
     
 }
 /* We Care About Our Customer Experience Too part end */
+
+
+/* Our Letest News patr start */
+.news__heading{
+    margin: 50px auto;
+    text-align: center;
+    width: 500px;
+    padding-top: 50px;
+}
+.news__heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.news__heading p{
+    color: rgba(24, 24, 24, 0.7);
+}
+.news__card{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.news__card img{
+    width: 100%;
+}
+.news__card_body{
+    width: 300px;
+}
+.news__card_body h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.news__card_header{
+    display: flex;
+    padding: 20px 0 10px 0;
+    color: #5D5D5D;
+}
+.news__card_header_admin{
+    display: flex;
+}
+.news__card_header_admin p{
+    padding-left: 10px;
+}
+.news__card_header_date{
+    display: flex;
+    padding-left: 30px;
+}
+.news__card_header_date p{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Our Letest News patr end */
