@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 /* navbar part start  */
 .logo{
     width: 100px;
@@ -71,6 +74,9 @@ a{
     font-size: 40px;
     font-weight: 700;
 }
+.portfolio__heading p{
+    color: rgba(24, 24, 24, 0.7);
+}
 .portfolio__card{
     position: relative;
 }
@@ -106,6 +112,9 @@ a{
     font-size: 40px;
     font-weight: 700;
 }
+.member__heading p{
+    color: rgba(24, 24, 24, 0.7);
+}
 .member__card{
     position: relative;
 }
@@ -123,5 +132,32 @@ a{
 .member__card_inner h4{
     padding-top: 95%;
 }
-
 /* Our Expert Team Member part end */
+
+
+/* We Care About Our Customer Experience Too part start */
+.customer__heading{
+    width: 500px;
+    padding-top: 100px;
+}
+.customer__heading h2{
+    font-weight: 700;
+    font-size: 39px;
+}
+.customer__heading p{
+    color: rgba(24, 24, 24, 0.7);
+}
+.customer__card{
+    padding: 48px;
+    box-shadow: 0px 0px 50px 10px rgba(212, 212, 212, 0.6);
+    border-radius: 10px;
+}
+.customer__card ul{
+    display: flex;
+    padding: 20px 0;
+}
+.customer__card ul li{
+    color: #FBBF25;
+    
+}
+/* We Care About Our Customer Experience Too part end */
