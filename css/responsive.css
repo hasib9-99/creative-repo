@@ -1,4 +1,4 @@
-@media(max-width:575px){
+@media(max-width:767.98px){
     /* navbar  */
     .nav_bg ul{
         text-align: center;
@@ -25,15 +25,34 @@
         text-align: center;
     }
     /* Our Services part end */
+
+
+    /* Our Expert Team Member part start */
+    .member__card{
+        margin: 10px 0;
+    }
+    /* Our Expert Team Member part end */
+
+
+    /* We Care About Our Customer Experience Too part start */
+    .customer__card{
+        text-align: center;
+        margin: 10px;
+    }
+    .customer__card ul{
+        justify-content: center;
+        margin: 0;
+    }
+    /* We Care About Our Customer Experience Too part end */
+
+    /* Our Letest News patr start */
+    .news__card{
+        margin: 10px;
+    }
+
+    /* Our Letest News patr end */
     
-    /* Our Work Portfolio part start */
-
-
-    /* Our Work Portfolio part end */
     
-}
-@media(min-width:575px) and (max-width:767.98px){
-
 }
 @media(min-width:768px) and (max-width:991.98px){
 
