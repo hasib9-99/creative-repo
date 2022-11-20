@@ -49,6 +49,9 @@
     .news__card{
         margin: 10px;
     }
+    .news__card_body{
+        width: auto;
+    }
 
     /* Our Letest News patr end */
     
@@ -74,15 +77,18 @@
     .news__card{
         margin: 10px;
     }
+    .news__card_body{
+        width: auto;
+    }
 
 
 }
 @media(min-width:992px) and (max-width:1199.98px){
-
-}
-@media(min-width:1200px) and (max-width:1399.98px){
-
-}
-@media(min-width:1400px){
+    .news__card_body{
+        width: auto;
+    }
+    .banner__img{
+        width: 90%;
+    }
 
 }
