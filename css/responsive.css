@@ -1,4 +1,11 @@
 @media(max-width:575px){
+    /* navbar  */
+    .nav_bg ul{
+        text-align: center;
+    }
+
+    /* navbar  */
+
     /* banner part start  */
     .banner__heading {
         text-align: center;
@@ -10,10 +17,19 @@
     /* banner part end  */
 
     /* Our Services part start */
-    .services__heading{
+    .section__heading{
         width: auto;
     }
+    .services__card{
+        margin: 10px auto;
+        text-align: center;
+    }
     /* Our Services part end */
+    
+    /* Our Work Portfolio part start */
+
+
+    /* Our Work Portfolio part end */
     
 }
 @media(min-width:575px) and (max-width:767.98px){

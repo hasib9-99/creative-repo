@@ -67,6 +67,7 @@ ul{
     border-radius: 10px;
     padding: 63px 48px;
     /* margin: 0 15px; */
+    box-shadow: 0px 0px 50px 10px rgba(212, 212, 212, 0.6);
 }
 .services__card h3{
     padding: 30px 0;
@@ -79,10 +80,14 @@ ul{
 .portfolio__card{
     position: relative;
 }
+.portfolio__card img{
+    margin: 0 auto;
+    width: 100%;
+}
 .portfolio__card_inner{
     position: absolute;
     bottom: 19px;
-    left: 20px;
+    left: 25px;
     background-color: #5956E8;
     padding: 20px 40px;
     color: white;
