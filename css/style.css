@@ -9,6 +9,18 @@ a{
 ul{
     list-style: none;
 }
+.section__heading{
+    margin: 50px auto;
+    text-align: center;
+    width: 500px;
+}
+.section__heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section__heading p{
+    color: rgba(24, 24, 24, 0.7);
+}
 /* navbar part start  */
 .logo{
     width: 100px;
@@ -64,19 +76,6 @@ ul{
 
 
 /* Our Work Portfolio part start */
-.portfolio__heading{
-    margin: 50px auto;
-    text-align: center;
-    width: 500px;
-    padding-top: 50px;
-}
-.portfolio__heading h3{
-    font-size: 40px;
-    font-weight: 700;
-}
-.portfolio__heading p{
-    color: rgba(24, 24, 24, 0.7);
-}
 .portfolio__card{
     position: relative;
 }
@@ -102,19 +101,6 @@ ul{
 
 
 /* Our Expert Team Member part start  */
-.member__heading{
-    margin: 50px auto;
-    text-align: center;
-    width: 500px;
-    padding-top: 50px;
-}
-.member__heading h2{
-    font-size: 40px;
-    font-weight: 700;
-}
-.member__heading p{
-    color: rgba(24, 24, 24, 0.7);
-}
 .member__card{
     position: relative;
 }
