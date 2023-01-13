@@ -3,6 +3,9 @@
     .nav_bg ul{
         text-align: center;
     }
+    .contact__btn{
+        display: none;
+    }
 
     /* navbar  */
 
@@ -10,6 +13,9 @@
     .banner__heading {
         text-align: center;
         width: auto;
+    }
+    .banner__heading h2{
+        font-size: 28px;
     }
     .banner__img{
         display: none;
@@ -30,6 +36,9 @@
     /* Our Expert Team Member part start */
     .member__card{
         margin: 10px 0;
+    }
+    .portfolio__card_inner{
+        display: none;
     }
     /* Our Expert Team Member part end */
 
